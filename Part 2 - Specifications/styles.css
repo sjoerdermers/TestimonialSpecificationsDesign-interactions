@@ -1,0 +1,780 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #c3cfe2;
+}
+
+@media only screen and (min-width: 1200px) {
+  .fotos-totaal {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-rows: repeat 2, 400px;
+        grid-template-rows: repeat 2, 400px;
+    -ms-grid-columns: repeat 3, 400px;
+        grid-template-columns: repeat 3, 400px;
+  }
+  /* 
+  ----------------------Herhaal functies----------------------------- */
+  /* 
+  ----------------------foto's------------------------------ */
+  .foto1 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto3 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto4 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto5 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .foto6 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  /* 
+  --------------------text herhaal ----------------------- */
+  .text1 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .text2 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .text3 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .text4 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .text5 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .text6 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  /* 
+  ----------------------------hover------------------------- */
+  .text1:hover {
+    opacity: 0.7;
+  }
+  .text2:hover {
+    opacity: 0.7;
+  }
+  .text3:hover {
+    opacity: 0.7;
+  }
+  .text4:hover {
+    opacity: 0.7;
+  }
+  .text5:hover {
+    opacity: 0.7;
+  }
+  .text6:hover {
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .fotos-totaal {
+    border: 3px solid black;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #c3cfe2;
+    -ms-grid-rows: repeat 3, 400px;
+        grid-template-rows: repeat 3, 400px;
+    -ms-grid-columns: repeat 2, 400px;
+        grid-template-columns: repeat 2, 400px;
+  }
+  /* 
+----------------------Herhaal functies----------------------------- */
+  /* 
+----------------------foto's------------------------------ */
+  .foto1 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto4 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  .foto5 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto6 {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+  }
+  /* 
+--------------------text herhaal ----------------------- */
+  .text1 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .text2 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .text3 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .text4 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .text5 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .text6 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  /* 
+----------------------------hover------------------------- */
+  .text1:hover {
+    opacity: 0.7;
+  }
+  .text2:hover {
+    opacity: 0.7;
+  }
+  .text3:hover {
+    opacity: 0.7;
+  }
+  .text4:hover {
+    opacity: 0.7;
+  }
+  .text5:hover {
+    opacity: 0.7;
+  }
+  .text6:hover {
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fotos-totaal {
+    border: 3px solid black;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #c3cfe2;
+    -ms-grid-rows: repeat 6, 400px;
+        grid-template-rows: repeat 6, 400px;
+    -ms-grid-columns: 400px;
+        grid-template-columns: 400px;
+  }
+  /* 
+----------------------Herhaal functies----------------------------- */
+  /* 
+----------------------foto's------------------------------ */
+  .foto1 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .foto2 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto3 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto4 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .foto5 {
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    grid-row: 5/6;
+  }
+  .foto6 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
+    border: 2px solid black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    margin: 2em;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  /* 
+--------------------text herhaal ----------------------- */
+  .text1 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .text2 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .text3 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .text4 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+  }
+  .text5 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    grid-row: 5/6;
+  }
+  .text6 {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: blue;
+    font-family: roboto, verdana;
+    margin: 2em;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
+  }
+  /* 
+----------------------------hover------------------------- */
+  .text1:hover {
+    opacity: 0.7;
+  }
+  .text2:hover {
+    opacity: 0.7;
+  }
+  .text3:hover {
+    opacity: 0.7;
+  }
+  .text4:hover {
+    opacity: 0.7;
+  }
+  .text5:hover {
+    opacity: 0.7;
+  }
+  .text6:hover {
+    opacity: 0.7;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
